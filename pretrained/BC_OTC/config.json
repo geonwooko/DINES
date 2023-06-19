@@ -1,0 +1,17 @@
+{
+    "DATASET": "BC_OTC",
+    "DATA_DIR": "./data",
+    "SEED": 1,
+    "TEST_RATIO": 0.2,
+    "IN_DIM": 64,
+    "OUT_DIM": 64,
+    "NUM_EPOCHS": 100,
+    "LR": 0.005,
+    "WEIGHT_DECAY": 0.01,
+    "NUM_LAYERS": 2,
+    "NUM_FACTORS": 8,
+    "LAMBDA_DISC": 0.1,
+    "AGGR_TYPE": "sum",
+    "OUTPUT_DIR": "./pretrained",
+    "DEVICE": "cpu"
+}
