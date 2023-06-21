@@ -50,7 +50,7 @@ The details of datasets are provided in the following table:
 |[BitcoinOTC](https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html)|5,881|35,592|32,029|3,563|90.0|
 |[Wiki-RFA](https://snap.stanford.edu/data/wiki-RfA.html)|11,258|178,096|138,473|38,623|78.3|
 |[Slashdot](http://konect.cc/networks/slashdot-zoo)|79,120|515,397|392,326|123,255|76.1|
-|[Epinions](http://www.trustlet.org/wiki/Extended_Epinions_dataset)|131,828|841,372|717,667|123,705|85.3|
+|[Epinions](https://snap.stanford.edu/data/soc-sign-epinions.html)|131,828|841,372|717,667|123,705|85.3|
 * $\|\mathcal{V}\|$: the number of nodes
 * $\|\mathcal{E}\|$: the number of edges
 * $\|\mathcal{E}^{+}\|$ and $\|\mathcal{E}^{-}\|$: the numbers of positive and negative edges, respectively
