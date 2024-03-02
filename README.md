@@ -1,16 +1,16 @@
 # DINES
 This is the official implementation of **DINES** (Disentangled Neural Networks for Signed Digraph). 
-The paper is submitted to Information Sciences, and under review:
 
 * Learning Disentangled Representations in Signed Directed Graphs without Social Assumptions <br/>
   Geonwoo Ko and Jinhong Jung<br/>
-  Information Sciences (submitted)
+  Information Sciences (accepted)
+* The pre-print version is available at [here](https://arxiv.org/abs/2307.03077).
 
 ## Overview
-Signed graphs are complex systems that represent trust relationships or preferences in various domains. 
-Learning node representations in such graphs is crucial for many mining tasks. 
-Although real-world signed relationships can be influenced by multiple latent factors, most existing methods often oversimplify the modeling of signed relationships by relying on social theories and treating them as simplistic factors. 
-This limits their expressiveness and their ability to capture the diverse factors that shape these relationships.
+Signed graphs can represent complex systems of positive and negative relationships such as trust or preference in various domains.
+Learning node representations is indispensable because they serve as pivotal features for downstream tasks on signed graphs.
+However, most existing methods often oversimplify the modeling of signed relationships by relying on social theories, while real-world relationships can be influenced by multiple latent factors.
+This hinders those methods from effectively capturing the diverse factors, thereby limiting the expressiveness of node representations.  
 
 In this paper, we propose DINES, a novel method for learning disentangled node representations in signed directed graphs without social assumptions. 
 We adopt a disentangled framework that separates each embedding into distinct factors, allowing for capturing multiple latent factors. 
